@@ -38,6 +38,24 @@ Products (products.html)
 Enquiry (enquiry.html)
 Contact (contact.html)
 
+## Changelog
+
+### Part 1 Feedback Corrections
+
+- Expanded the Technical Requirements section by including hosting requirements, domain information, storage, bandwidth, SSL certificate, and email hosting.
+- Improved the Timeline section by presenting milestones in a structured table format.
+- Expanded the Budget section by providing a detailed cost breakdown and justification of the total estimated cost.
+
+### Part 2 Updates
+
+- Created an external stylesheet (style.css) and linked it to all HTML pages.
+- Added consistent typography, colours, spacing, and layout styling across the website.
+- Implemented Flexbox for product page layouts.
+- Added hover effects for navigation links, buttons, and product cards.
+- Applied responsive design using media queries for desktop, tablet, and mobile devices.
+- Added responsive image implementation using srcset and sizes attributes.
+- Tested the website on multiple screen sizes and devices.
+
 ## References
 
 Google. (2024) SEO Starter Guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 12 April 2026).
