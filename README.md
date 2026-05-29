@@ -65,3 +65,9 @@ W3Schools. (2024) HTML Tutorial. Available at: https://www.w3schools.com/html/ (
 Krug, S. (2014) Don’t Make Me Think: A Common Sense Approach to Web Usability. 3rd edn. Berkeley: New Riders.
 
 Chaffey, D. and Ellis-Chadwick, F. (2019) Digital Marketing. 7th edn. Harlow: Pearson.
+
+MDN Web Docs. 2025. CSS: Cascading Style Sheets. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed 20 May 2026].
+
+W3Schools. 2025. CSS Tutorial. [online] Available at: https://www.w3schools.com/css/ [Accessed 20 May 2026].
+
+Google. 2025. Chrome DevTools Documentation. [online] Available at: https://developer.chrome.com/docs/devtools/ [Accessed 25 May 2026].
