@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact - Amani Gaming Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Amani Gaming Hub</title>
+    <meta name="description" content="Contact Amani Gaming Hub for support, product information, and general enquiries.">
+    <meta name="keywords" content="gaming hub, Xbox, PlayStation, gaming accessories, consoles, Siyabuswa gaming store">
+    <meta name="author" content="Sphesihle Mavuso">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+         rel="stylesheet"
+         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 
 <body>
@@ -23,6 +31,10 @@
     <p><strong>Phone:</strong> 069 916 9374</p>
     <p><strong>Location:</strong> Siyabuswa B and Pretoria</p>
     <p><strong>Social Media:</strong> Amani Gaming Hub</p>
+    
+    <h2>Find Us</h2>
+
+    <div id="map"></div>
 
     <hr>
 
@@ -31,9 +43,52 @@
     <p>Saturday: 10:00 – 18:00</p>
     <p>Sunday: Closed</p>
 
+    <form id="contactForm">
+
+    <label for="fullName">Full Name:</label>
+    <input
+        type="text"
+        id="fullName"
+        minlength="3"
+        required>
+
+    <label for="contactEmail">Email Address:</label>
+    <input
+        type="email"
+        id="contactEmail"
+        required>
+
+    <label for="messageType">Message Type:</label>
+
+    <select id="messageType" required>
+        <option value="">Select a message type</option>
+        <option value="General Enquiry">General Enquiry</option>
+        <option value="Product Question">Product Question</option>
+        <option value="Support Request">Support Request</option>
+        <option value="Feedback">Feedback</option>
+    </select>
+
+    <label for="userMessage">Message:</label>
+
+    <textarea
+        id="userMessage"
+        rows="5"
+        minlength="10"
+        required></textarea>
+
+    <button type="submit">Send Message</button>
+
+    </form>
+
+    <p id="contactResponse"></p>
+
     <hr>
 
     <p>Visit us today for the best gaming experience!</p>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+    
 </body>
 </html>

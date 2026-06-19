@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Products - Amani Gaming Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Consoles and Accessories | Amani Gaming Hub</title>
+    <meta name="description" content="Browse Xbox consoles, PlayStation consoles, controllers, and racing wheels at Amani Gaming Hub.">
+    <meta name="keywords" content="gaming hub, Xbox, PlayStation, gaming accessories, consoles, Siyabuswa gaming store">
+    <meta name="author" content="Sphesihle Mavuso">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -18,28 +23,54 @@
 
     <hr>
 
+<section>
+
+    <h2>Search Products</h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search for a product...">
+
+</section>
+
     <h2>Gaming Consoles</h2>
 
-    <h3>Xbox Series S</h3>
-    <img src="img/WhatsApp Image 2026-04-19 at 21.47.23.jpeg" width="200">
-    <p>Price: R5999</p>
+    <div class="product-container">
 
-    <h3>PlayStation 4 Slim</h3>
-    <img src="img/ps4-slim.jpg" width="200">
-    <p>Price: R4999</p>
+     <div class="product-card">
+       <h3>Xbox Series S</h3>
+       <img class="gallery-image" src="img/WhatsApp Image 2026-04-19 at 21.47.23.jpeg" alt="Xbox Series S">
+       <p>Price: R5999</p>
+     </div> 
+
+     <div class="product-card">
+      <h3>PlayStation 4 Slim</h3>
+      <img class="gallery-image" src="img/ps4-slim.jpg" alt="PS4 Slim">
+      <p>Price: R4999</p>
+     </div>
+
+    </div>
 
     <hr>
 
     <h2>Accessories</h2>
 
-    <h3>Controller</h3>
-    <img src="img/ps-controller.jpg" width="200">
-    <p>Price: R799</p>
+    <div class="product-container">
 
-    <h3>Racing Wheel</h3>
-    <img src="img/pxn-racingwheel.jpg" width="200">
-    <p>Price: R2999</p>
+        <div class="product-card">
+            <h3>Controller</h3>
+            <img class="gallery-image" src="img/ps-controller.jpg" alt="Controller">
+            <p>Price: R799</p>
+        </div>
+    
+        <div class="product-card">    
+            <h3>Racing Wheel</h3>
+            <img class="gallery-image" src="img/pxn-racingwheel.jpg" alt="Racing Wheel">
+            <p>Price: R2999</p>
+        </div>
 
+    </div>
     <hr>
 
     <p>Contact us to place an order or enquire about availability.</p>
@@ -47,5 +78,14 @@
     <p>Contact: 069 916 9374</p>
     <p>Location: Siyabuswa B and Pretoria</p>
 
+<div id="lightbox" class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <img id="lightbox-img" src="" alt="Expanded product image">
+
+</div>    
+
+<script src="js/main.js"></script>    
 </body>
 </html>

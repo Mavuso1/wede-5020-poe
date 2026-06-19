@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Enquiry - Amani Gaming Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Enquiries | Amani Gaming Hub</title>
+    <meta name="description" content="Send product enquiries to Amani Gaming Hub and receive information about pricing and availability.">
+    <meta name="keywords" content="gaming hub, Xbox, PlayStation, gaming accessories, consoles, Siyabuswa gaming store">
+    <meta name="author" content="Sphesihle Mavuso">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -21,31 +26,53 @@
     <h2>Send us an enquiry</h2>
     <p>Fill in the form below to ask about products or gaming services.</p>
 
-    <form>
+   <form id="enquiryForm">
 
-        <label>Full Name:</label><br>
-        <input type="text" name="name"><br><br>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" required>
 
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" required>
 
-        <label>Phone Number:</label><br>
-        <input type="tel" name="phone"><br><br>
+    <label for="phone">Phone Number:</label>
+    <input
+        type="tel"
+        id="phone"
+        pattern="[0-9]{10}"
+        placeholder="0123456789"
+        required>
 
-        <label>Product / Service:</label><br>
-        <input type="text" name="product"><br><br>
+    <label for="product">Select Product:</label>
 
-        <label>Message:</label><br>
-        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+    <select id="product" required>
+        <option value="">Choose a product</option>
+        <option value="Xbox Series S">Xbox Series S</option>
+        <option value="PlayStation 4 Slim">PlayStation 4 Slim</option>
+        <option value="Controller">Controller</option>
+        <option value="Racing Wheel">Racing Wheel</option>
+    </select>
 
-        <input type="submit" value="Submit">
+    <label for="message">Enquiry Details:</label>
+
+    <textarea
+        id="message"
+        rows="5"
+        minlength="10"
+        required></textarea>
+
+    <button type="submit">Submit Enquiry</button>
 
     </form>
+
+    <p id="enquiryResponse"></p>
 
     <hr>
 
     <p>Contact: 069 916 9374</p>
     <p>Location: Siyabuswa B and Pretoria</p>
 
+<script src="js/main.js"></script>
+<script src="js/enquiry.js"></script>
+    
 </body>
 </html>
