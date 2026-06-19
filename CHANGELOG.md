@@ -55,3 +55,18 @@ The layout changes to a single-column design. Product cards stack vertically and
 
 ### Screenshots
 Screenshots of desktop, tablet, and mobile views have been included in the screenshots folder within the repository.
+
+## Changelog
+
+### Part 3 Updates
+
+- Added JavaScript files for website functionality.
+- Implemented product search and filtering.
+- Added a lightbox gallery for product images.
+- Integrated an interactive map using Leaflet.
+- Added HTML5 and JavaScript validation to enquiry and contact forms.
+- Implemented email functionality using mailto.
+- Improved on-page SEO with title tags, meta descriptions, keywords, and author tags.
+- Created robots.txt and sitemap.xml files.
+- Deployed the website using GitHub Pages.
+
