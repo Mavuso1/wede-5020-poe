@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mavuso1.github.io/wede-5020-poe/sitemap.xml
