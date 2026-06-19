@@ -56,6 +56,13 @@ Contact (contact.html)
 - Added responsive image implementation using srcset and sizes attributes.
 - Tested the website on multiple screen sizes and devices.
 
+## Deployment
+
+The website has been deployed using GitHub Pages.
+
+Live website:
+https://github.com/Mavuso1/wede-5020-poe
+
 ## References
 
 Google. (2024) SEO Starter Guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 12 April 2026).
