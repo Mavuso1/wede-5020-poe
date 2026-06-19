@@ -78,3 +78,9 @@ MDN Web Docs. 2025. CSS: Cascading Style Sheets. [online] Available at: https://
 W3Schools. 2025. CSS Tutorial. [online] Available at: https://www.w3schools.com/css/ [Accessed 20 May 2026].
 
 Google. 2025. Chrome DevTools Documentation. [online] Available at: https://developer.chrome.com/docs/devtools/ [Accessed 25 May 2026].
+
+Leaflet. 2025. Leaflet – an open-source JavaScript library for interactive maps. [online] Available at: https://leafletjs.com/ [Accessed 15 June 2026].
+
+GitHub. 2025. GitHub Pages documentation. [online] Available at: https://docs.github.com/en/pages [Accessed 15 June 2026].
+
+Mozilla Developer Network (MDN). 2025. JavaScript Guide. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript [Accessed 16 June 2026].
